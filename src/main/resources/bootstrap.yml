@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: enterprise-purchase-web
+  profiles:
+    # dev
+    # active: dev-hollywood
+    # test1
+    active: test
+  cloud:
+    config:
+      # dev
+      # uri: http://172.16.101.137:8200
+
+      # test1
+      uri: http://172.16.101.50:8200
+      label: master
